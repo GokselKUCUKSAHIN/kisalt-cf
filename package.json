@@ -1,0 +1,21 @@
+{
+  "name": "site",
+  "version": "2.1.3",
+  "description": "Project Bishamon main page.",
+  "main": "site/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node site/server.js"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "express",
+    "nodejs"
+  ],
+  "author": "Göksel KÜÇÜKŞAHİN",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
