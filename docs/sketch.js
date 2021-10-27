@@ -1,4 +1,4 @@
-const _0x2505 = ['res/img/bishamon.png', '114344kVAKul', 'split', '182647Dfyilm', '408576XKHpwq', '2089YviaZW', 'innerWidth', '436451pnmzDx', '156243gGuKlA', '1BpYRYy', 'innerHeight', 'プロジェクト毘沙門天忍清晨汉集', '42ivymZo', '29PJxaiW', '4727oviUpg', 'length'];
+const _0x2505 = ['res/img/bishamon.png', '114344kVAKul', 'split', '182647Dfyilm', '408576XKHpwq', '2089YviaZW', 'innerWidth', '436451pnmzDx', '156243gGuKlA', '1BpYRYy', 'innerHeight', 'COMING SOON', '42ivymZo', '29PJxaiW', '4727oviUpg', 'length'];
 const _0x49aafc = _0x1d57;
 (function (_0x3c9fe6, _0xdd3da2) {
   const _0x2ad872 = _0x1d57;
