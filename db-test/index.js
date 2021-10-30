@@ -1,12 +1,14 @@
-const {MongoClient} = require('mongodb');
-const uri = "mongodb+srv://dbAdmin:pass123@mongodbkisaltcf.hkosr.mongodb.net/mongoDbKisaltCf?retryWrites=true&w=majority";
-const client = new MongoClient(uri, {useNewUrlParser: true, useUnifiedTopology: true});
-client.connect(err => {
-  const collection = client.db("mon").collection("x").findOne({}, (err, res) => {
-    if (err)
-      console.log("err:", err);
-    else
-      console.log(res);
-  });
-  client.close();
+const mongodb = require("mongodb");
+require("dotenv").config();
+const MONGO_URI = process.env.MONGO_URI;
+
+const client = mongodb.MongoClient;
+const uri = MONGO_URI;
+
+client.connect(uri, (err, client) => {
+  const db = client.db("newDB");
+  const collection = db.collection("users");
+  const query = {};
+  const cursor = collection.find(query);
+  cursor.forEach(doc => console.log(doc), err => client.close());
 });
