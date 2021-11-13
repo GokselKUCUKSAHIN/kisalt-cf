@@ -15,5 +15,5 @@ client.connect(uri, (err, client) => {
   const collection = db.collection(table);
   const query = {};
   const cursor = collection.find(query);
-  cursor.forEach(doc => console.log(doc), err => client.close());
+  cursor.forEach(doc => console.log(doc), error => client.close());
 });
