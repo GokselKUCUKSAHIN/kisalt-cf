@@ -1,0 +1,25 @@
+{
+  "name": "aws-db",
+  "version": "0.0.1",
+  "description": "AWS MongoDb Test and Configuration Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node aws-db.ts"
+  },
+  "keywords": [
+    "aws",
+    "mongo",
+    "database",
+    "no-sql",
+    "demo"
+  ],
+  "author": "Göksel KÜÇÜKŞAHİN <gokselkucuksahin@gmail.com> https://www.github.com/GokselKUCUKSAHIN",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.12"
+  },
+  "dependencies": {
+    "moosedb": "^0.1.1"
+  }
+}
